@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import { IconPropsT } from "@/types";
 
 export const HeartbeatLine = (props: IconPropsT) => {
@@ -9,6 +10,7 @@ export const HeartbeatLine = (props: IconPropsT) => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
+      className={cn("w-[150px] lg:w-[300px] lg:h-[31px]", props.className)}
     >
       <path
         d="M223.989 18.5973C198.227 16.4371 83.9002 16.9309 59.8592 21.1479C59.8496 21.393 60.1178 21.4182 60.4456 21.4163C63.192 21.4008 110.384 19.5227 144.502 19.5927C155.556 19.6154 167.618 19.7774 179.001 19.639C190.385 19.5007 223.989 18.5973 223.989 18.5973Z"

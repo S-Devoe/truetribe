@@ -11,9 +11,9 @@ const Heading = ({ children, as = "h1", ...rest }: HeadingProps) => {
     <HeadingTag
       {...rest}
       className={cn(
-        "text-blue-grey-black-1000 tracking-[1.28px] leading-[83px] font-bold text-3xl lg:text-[4rem]",
+        "text-blue-grey-black-1000 lg:tracking-[1.28px] lg:leading-[83px] font-bold text-3xl lg:text-[4rem]",
         {
-          "text-[2rem] lg:text-[3rem] font-extrabold": as === "h2",
+          "text-[1.5rem] lg:text-[3rem] font-extrabold": as === "h2",
         },
         rest.className
       )}

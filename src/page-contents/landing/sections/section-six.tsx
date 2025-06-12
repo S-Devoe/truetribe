@@ -11,7 +11,7 @@ const SectionSix = () => {
     <section className="w-full py-10">
       <Container className="bg-sunlight-haze rounded-lg flex-col md:flex-row items-center justify-between gap-7 md:gap-14 px-5 md:px-12 pb-2 lg:pb-2">
         <div className="">
-          <Heading as="h2">
+          <Heading as="h2" className="text-center md:text-start">
             Your Community in Your Pocket -
             <span className="text-primary">Join Today</span>
           </Heading>
@@ -21,7 +21,7 @@ const SectionSix = () => {
             stay engaged with local events, leadership updates, and the
             traditions that matter
           </Paragraph>
-          <div className="flex items-start gap-2 mt-6 z-1">
+          <div className="flex md:justify-start justify-center items-start gap-2 mt-6 z-1">
             <PlaystoreAppLink />
             <AppstoreAppLink />
           </div>
@@ -32,7 +32,7 @@ const SectionSix = () => {
           alt="mobile-app"
           width={518}
           height={559}
-          className=" lg:h-[34.9rem]"
+          className="h-[25rem] lg:h-[34.9rem]"
         />
       </Container>
     </section>

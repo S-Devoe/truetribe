@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import { IconPropsT } from "@/types";
 
 export const TextHighlight = (props: IconPropsT) => {
@@ -9,6 +10,7 @@ export const TextHighlight = (props: IconPropsT) => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
+      className={cn("h-4 w-6 lg:h-[34px] lg:w-[35px]", props.className)}
     >
       <path
         fillRule="evenodd"

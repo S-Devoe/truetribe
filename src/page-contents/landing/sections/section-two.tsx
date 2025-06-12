@@ -13,7 +13,9 @@ const SectionTwo = () => {
     <section className="w-full bg-[#F0F6FF]">
       <Container className="gap-4">
         <Badge>About the App</Badge>
-        <Heading as="h2">What is Truetribe App?</Heading>
+        <Heading as="h2" className="text-center">
+          What is Truetribe App?
+        </Heading>
         <Paragraph className="text-center max-w-[41rem]">
           Truetribe is a modern digital platform for community connection,
           cultural preservation, and empowerment. Whether at home or abroad,

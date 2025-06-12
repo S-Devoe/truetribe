@@ -13,7 +13,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section className="relative h-svh">
+    <section className="relative h-[85svh] md:h-[75svh] lg:h-svh">
       <div className="hero-blue-blur absolute top-32 left-6 z-0" />
       <div className="hero-yellow-blur absolute bottom-20 right-0 z-0" />
       <Container className="pb-0 lg:pb-0 flex flex-col items-center relative z-10 h-full">
@@ -32,10 +32,10 @@ const HeroSection = () => {
               Heartbeat
               <HeartbeatLine className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
             </span>{" "}
-            of <br />
-            <span className="text-orange-foreground relative">
+            of{" "}
+            <span className="text-orange-foreground relative md:block w-fit mx-auto">
               Truetribe
-              <TextHighlight className="absolute top-3.5 -right-6 text-blue-grey-black-800" />
+              <TextHighlight className="absolute top-1 lg:top-3.5 -right-3.5 md:-right-6 text-blue-grey-black-800" />
             </span>
           </Heading>
           <Paragraph className="max-w-[37.3rem] text-center">
@@ -61,14 +61,14 @@ const HeroSection = () => {
             alt="group"
             height={650}
             width={495}
-            className="absolute bottom-4 object-contain right-[55%] h-[320px] lg:w-[30rem] lg:h-[39.6rem] z-0"
+            className="hidden lg:inline-block absolute bottom-4 object-contain right-[55%] h-[32px] lg:w-[30rem] lg:h-[39.6rem] z-0"
           />
           <Image
             src={GroupRight}
             alt="group"
             height={650}
             width={495}
-            className="absolute bottom-4 object-contain left-[55%] h-[320px] lg:w-[30rem] lg:h-[39.6rem] z-0"
+            className="hidden lg:inline-block absolute bottom-4 object-contain left-[55%] h-[320px] lg:w-[30rem] lg:h-[39.6rem] z-0"
           />
         </div>
       </Container>

@@ -14,21 +14,21 @@ import {
 const Footer = () => {
   return (
     <footer className="bg-primary w-full">
-      <Container className="px-0 lg:px-0 text-white lg:py-16">
+      <Container className="px-5 lg:px-0 text-white lg:py-16">
         <div className="flex flex-col md:flex-row justify-between w-full">
-          <div className="">
+          <div className="flex flex-col items-center md:items-start justify-center gap-5">
             <TrueTribeLogo />
-            <Paragraph className="text-white text-sm lg:text-sm max-w-[23rem] my-6">
+            <Paragraph className="text-white text-center md:text-start text-sm lg:text-sm max-w-[23rem]">
               An all-in-one mobile platform designed to unify, inform, and
               empower every son and daughter of Egbu through culture, service,
               and community
             </Paragraph>
-            <div className="flex items-start gap-2 mt-6 z-1">
+            <div className="flex items-start gap-2 md:mt-6 z-1">
               <PlaystoreAppLink />
               <AppstoreAppLink />
             </div>
           </div>
-          <div className="">
+          <div className="mt-5 md:mt-0 flex flex-col items-center md:items-start gap-5">
             <div className="flex items-center gap-14 [&>a]:text-sm">
               <Link href="#">About Us</Link>
               <Link href="#">Join community</Link>

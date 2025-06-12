@@ -14,7 +14,7 @@ const Paragraph = ({
     <p
       {...rest}
       className={cn(
-        "font-normal text-sm md:text-base",
+        "font-normal text-sm lg:text-base",
         {
           "text-blue-grey-black-900": textColor === "black900",
         },
