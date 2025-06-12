@@ -47,7 +47,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-12 border-t border-[#e5e7eb1f] pt-6 w-full">
-          <Paragraph className="text-[#E5E7EB]">
+          <Paragraph className="text-[#E5E7EB] text-center md:text-start">
             © {new Date().getFullYear()} truetribe. All rights reserved.{" "}
           </Paragraph>
         </div>
