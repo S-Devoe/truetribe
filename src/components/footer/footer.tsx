@@ -10,7 +10,6 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from "@/icons/socials";
-import { headers } from "next/headers";
 
 const Footer = () => {
   return (

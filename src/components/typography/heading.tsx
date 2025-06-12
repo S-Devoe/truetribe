@@ -4,16 +4,8 @@ import { HTMLAttributes, ReactNode } from "react";
 interface HeadingProps extends HTMLAttributes<HTMLHeadingElement> {
   children: ReactNode;
   as?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
-  headerColor?: "black3b" | "darkGreen" | "black33" | "lightGreen";
-  miniH1?: boolean;
 }
-const Heading = ({
-  children,
-  as = "h1",
-  headerColor,
-  miniH1,
-  ...rest
-}: HeadingProps) => {
+const Heading = ({ children, as = "h1", ...rest }: HeadingProps) => {
   const HeadingTag = as;
   return (
     <HeadingTag
