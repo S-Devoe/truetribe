@@ -13,7 +13,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section className="relative h-[90svh] md:h-[75svh] lg:h-svh xl:h-[60svh]">
+    <section className="relative h-[90svh] md:h-[75svh] lg:h-svh xl:h-[60svh] 2xl:h-[40svh]">
       <div className="hero-blue-blur absolute top-32 left-6 z-0" />
       <div className="hero-yellow-blur absolute bottom-20 right-0 z-0" />
       <Container className="pb-0 lg:pb-0 flex flex-col items-center relative z-10 h-full">
