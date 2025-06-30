@@ -14,7 +14,7 @@ import {
 const Footer = () => {
   return (
     <footer className="bg-primary w-full">
-      <Container className="px-5 lg:px-0 text-white lg:py-16">
+      <Container className="px-5 xl:px-0 text-white lg:py-16">
         <div className="flex flex-col md:flex-row justify-between w-full">
           <div className="flex flex-col items-center md:items-start justify-center gap-5">
             <TrueTribeLogo />
